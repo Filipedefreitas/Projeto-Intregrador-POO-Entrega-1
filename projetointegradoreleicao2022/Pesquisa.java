@@ -3,25 +3,25 @@ package projetointegradoreleicao2022;
 import java.time.LocalDate;
 
 public class Pesquisa {
-    private String instituto,Local,Tipo,Formato;
+    private String Instituto,Local,Tipo,Formato;
     private LocalDate Data;
     private float Media_idade;
 
-    public Pesquisa(String instituto, String Local, String Tipo, String Formato, LocalDate Data, float Media_idade) {
-        this.instituto = instituto;
-        this.Local = Local;
-        this.Tipo = Tipo;
-        this.Formato = Formato;
-        this.Data = Data;
-        this.Media_idade = Media_idade;
+    public Pesquisa(String instituto, String local, String tipo, String formato, localDate Data, float media_idade) {
+        this.Instituto = instituto;
+        this.Local = local;
+        this.Tipo = tipo;
+        this.Formato = formato;
+        this.Data = data;
+        this.Media_idade = media_idade;
     }
 
     public String getInstituto() {
-        return instituto;
+        return Instituto;
     }
 
-    public void setInstituto(String instituto) {
-        this.instituto = instituto;
+    public void setInstituto(String Instituto) {
+        this.Instituto = Instituto;
     }
 
     public String getLocal() {
